@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body {
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1,3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .destaque {
+            background-color: chartreuse;
+        }
+        col.cidade, col.cnome {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+            <tr>
+               <th scope="col">Nome</th> 
+               <th scope="col">Sexo</th>
+               <th scope="col">Idade</th>
+               <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Yasmin</td>
+                <td>F</td>
+                <td>18</td>
+                <td>Modelo</td>
+            </tr>
+            <tr>
+                <td>Leandro</td>
+                <td>M</td>
+                <td>53</td>
+                <td>Front-end</td>
+            </tr>
+            <tr>
+                <td>Maria Luiza</td>
+                <td>F</td>
+                <td>28</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Erick</td>
+                <td>M</td>
+                <td>52</td>
+                <td>Engenheiro de SoftWare</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>M</td>
+                <td>10</td>
+                <td>Pet</td>
+            </tr>
+        
+    </table>
+</body>
+</html>
